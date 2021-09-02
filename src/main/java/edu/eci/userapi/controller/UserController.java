@@ -64,5 +64,4 @@ public class UserController {
     public ResponseEntity<Boolean> delete(@PathVariable String id) {
         return ResponseEntity.ok(userService.deleteById(id));
     }
-
 }
